@@ -47,3 +47,5 @@ Les scripts LUA, python et les plugins python doivent être synchronisés à la 
 	docker rmi $(docker images -q)
  * Supprimer tous les containers/voumes/networks/images non utilisés :
 	docker system prune
+ * Supprimer tous les containers/voumes/networks/images  :
+	docker system prune --all
