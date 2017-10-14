@@ -1,0 +1,21 @@
+{
+    "bridge": {
+        "name": "HomeKit Domoticz",
+        "username": "CC:22:3D:E3:CE:31",
+        "port": 51826,
+        "pin": "031-45-158"
+    },
+
+    "description": "Configuration file for (e)xtended Domoticz platform.",
+    "platforms": [
+        {
+            "platform": "eDomoticz",
+            "name": "eDomoticz",
+            "server": "127.0.0.1",
+            "port": "8080",
+            "ssl": 0,
+            "roomid": 2,
+            "mqtt": 0
+        }
+    ],
+}
